@@ -12,10 +12,10 @@ pipeline {
     environment {
         DOCKER_CREDENTIAL_ID = 'dockerhub-id'
         GITHUB_CREDENTIAL_ID = 'github-id'
-        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'docker_username'
-        GITHUB_ACCOUNT = 'kubesphere'
+        KUBECONFIG_CREDENTIAL_ID = 'kubeconfig'
+        REGISTRY = 'docker.m.daocloud.io'
+        DOCKERHUB_NAMESPACE = 'xiaojiedrem'
+        GITHUB_ACCOUNT = '18985609095@189.cn'
         APP_NAME = 'devops-maven-sample'
     }
 
